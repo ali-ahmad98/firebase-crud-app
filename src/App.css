@@ -1,0 +1,51 @@
+.App {
+  padding: 40px;
+  max-width: 400px;
+  margin: auto;
+}
+
+h3 {
+  color: rgb(96, 0, 128);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* form-container */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-container form div {
+  display: flex;
+  gap: 20px;
+}
+.form-container form button {
+  width: 150px;
+  cursor: pointer;
+}
+.form-container form input {
+  width: 100%;
+}
+
+/* list-container */
+.list-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.list-container ul li:last-child {
+  display: flex;
+  gap: 10px;
+}
+.list-container ul li:last-child button {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
